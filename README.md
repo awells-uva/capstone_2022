@@ -20,37 +20,56 @@ data
 
 ## run_download_data.ipynb
 
+
 #### Description
 
 Notebook to download [FASTQ](https://support.illumina.com/bulletins/2016/04/fastq-files-explained.html) Files from [The European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/portal)
 
-#### Inputs: 
+#### Dependencies 
+
+#### Inputs
 
 Public Study Accession ID ( Typically in Form PRJ##### )
 
-#### Outputs:
+#### Outputs
 
 FASTQ files Unpacked into $PWD/< Public Study Accession ID >/*.fastq
 
 ## run_HISAT2.ipynb
 
-Description 
-Inputs
-Outputs
+#### Description
+
+#### Dependencies
+
+[HISAT2](http://daehwankimlab.github.io/hisat2/))
+[Genome Reference Consortium Human Build 38](https://genome-idx.s3.amazonaws.com/hisat/grch38_genome.tar.gz)
+
+#### Inputs: 
+
+#### Outputs
 
 ## run_SAM_to_BAM.ipynb
 
-Description 
-Inputs
-Outputs
+#### Description
+
+#### Dependencies 
+
+#### Inputs: 
+
+#### Outputs
 
 ## run_etl_BAM_to_pd.ipynb
 
-Description 
-#### Dependency : capstoneUtils.py
-Inputs
-Outputs
+#### Description
 
+#### Dependencies 
+
+capstoneUtils.py
+
+
+#### Inputs: 
+
+#### Outputs
 
 
 
