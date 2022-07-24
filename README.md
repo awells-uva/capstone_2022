@@ -20,9 +20,17 @@ data
 
 ## run_download_data.ipynb
 
-Description 
-Inputs
-Outputs
+#### Description
+
+Notebook to download [FASTQ](https://support.illumina.com/bulletins/2016/04/fastq-files-explained.html) Files from [The European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/portal)
+
+#### Inputs: 
+
+Public Study Accession ID ( Typically in Form PRJ##### )
+
+#### Outputs:
+
+FASTQ files Unpacked into $PWD/< Public Study Accession ID >/*.fastq
 
 ## run_HISAT2.ipynb
 
