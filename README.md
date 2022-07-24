@@ -41,12 +41,16 @@ FASTQ files Unpacked into $PWD/< Public Study Accession ID >/*.fastq
 
 #### Dependencies
 
-[HISAT2](http://daehwankimlab.github.io/hisat2/))
+[HISAT2](http://daehwankimlab.github.io/hisat2/)
+
 [Genome Reference Consortium Human Build 38](https://genome-idx.s3.amazonaws.com/hisat/grch38_genome.tar.gz)
 
 #### Inputs: 
 
 #### Outputs
+
+#### Support 
+[The Genome Reference Consortium](https://www.ncbi.nlm.nih.gov/grc)
 
 ## run_SAM_to_BAM.ipynb
 
