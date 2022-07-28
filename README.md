@@ -15,13 +15,13 @@ Assumption 1 : Public Study Accession ID name begins with "PRJ"
 data
 ├── bam_files
 |   ├── PRJ######
-|   |   └──  <Run Accession>.bam
+|       └──  <Run Accession>.bam
 ├── csv_files
 |   ├── PRJ######
-|   |   └── PRJ######_<Run Accession>.csv
+|       └── PRJ######_<Run Accession>.csv
 ├── sam_files
 |   ├── PRJ######
-|   |   └── <Run Accession>.sam
+|       └── <Run Accession>.sam
 └── PRJ######
     ├── <Run Accession>_1.fastq
     └── <Run Accession>_2.fastq
