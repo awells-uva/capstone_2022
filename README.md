@@ -2,6 +2,12 @@
 
 Research: To see if there is a relationship between the metadata and the contamination present in the resulting sequencing data.
 
+# Python Environment
+
+requirements.txt
+
+Use at your Discretion. Provided as reference to reproduce working Environment. 
+
 # Data
 
 Assumption 1 : Public Study Accession ID name begins with "PRJ"
