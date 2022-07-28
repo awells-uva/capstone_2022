@@ -13,18 +13,18 @@ Use at your Discretion. Provided as reference to reproduce working Environment.
 Assumption 1 : Public Study Accession ID name begins with "PRJ"
 ``` 
 data
-|--bam_files
-|  |--PRJ######
-|  |  |--<Run Accession>.bam
-|--csv_files
-|  |--PRJ######
-|  |  |--*.csv
-|--sam_files
-|  |--PRJ######
-|  |  |--<Run Accession>.sam
-|--PRJ######
-|  |--<Run Accession>_1.fastq
-|  |--<Run Accession>_2.fastq
+├── bam_files
+|   ├── PRJ######
+|   |   └──  <Run Accession>.bam
+├── csv_files
+|   ├── PRJ######
+|   |   └── PRJ######_<Run Accession>.csv
+├── sam_files
+|   ├── PRJ######
+|   |   └── <Run Accession>.sam
+└── PRJ######
+    ├── <Run Accession>_1.fastq
+    └── <Run Accession>_2.fastq
 ```
 # Scripts
 
@@ -118,24 +118,23 @@ Directory in structure $PWD/csv_files/< Public Study Accession ID >_<Run Accessi
 
 Run Directory structure
 
-runs
+
 ```
-
-|--K_< K >
-|  |--images
-|  |  |--*.png
-|  |--models
-|  |  |--lda_model_Ntopic< Number of Topics>_K<K>*
-|  |--cluster_sample_K< K >.csv
-|  |--crosstab_K< K >.csv
-|  |--filtered_crosstab_K< K >.csv
-|  |--K< K >_library.txt
-|  |--kmer_df_K< K >.csv
-|  |--objs_K< K >.pkl
-|  |--sizes.csv
-|  |--test.csv
-|  |--train.csv
-
+runs
+└── K_< K >
+    ├── images
+    |   └── *.png
+    ├── models
+    |   └── lda_model_Ntopic< Number of Topics>_K<K>*
+    ├── cluster_sample_K< K >.csv
+    ├── crosstab_K< K >.csv
+    ├── filtered_crosstab_K< K >.csv
+    ├── K< K >_library.txt
+    ├── kmer_df_K< K >.csv
+    ├── objs_K< K >.pkl
+    ├── sizes.csv
+    ├── test.csv
+    └── train.csv
 ```
 ##### File Descriptions 
 
